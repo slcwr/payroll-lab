@@ -71,9 +71,7 @@ infra/terraform/            ← Google Cloud 構成
 
 ---
 
-## 設計で意識したこと（面談で話せるポイント）
-
-SmartHR の求人票にある3つの課題に対応させています。
+## 設計で意識したこと
 
 ### 1. 複雑なルールを「正確で拡張しやすい仕組み」に落とし込む
 
@@ -154,4 +152,3 @@ API（Cloud Run サービス）は計算を依頼したらすぐ返し、画面�
 - [令和8年分 源泉徴収税額表（国税庁）](https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2026/01.htm)
 - [令和8年度 協会けんぽの保険料率](https://www.kyoukaikenpo.or.jp/g7/cat330/sb3130/r08/)
 - [令和8年度の雇用保険料率（山形労働局）](https://jsite.mhlw.go.jp/yamagata-roudoukyoku/koyouhoken-20260316.html)
-- [SmartHR、データ入力レスな「給与計算」機能を提供開始](https://smarthr.co.jp/news/press/20250603_payroll/)
