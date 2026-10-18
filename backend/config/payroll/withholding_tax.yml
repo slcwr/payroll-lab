@@ -1,0 +1,54 @@
+# 源泉徴収税額（月額表・甲欄）の電算機計算の特例
+#
+# 財務省告示の別表を年分ごとに持つ。年分は給与の「支払日」で決まる。
+#   employment_income_deduction: 別表第一（給与所得控除の額。1円未満切り上げ）
+#   basic_deduction:             基礎控除の額
+#   spouse_deduction:            配偶者（特別）控除の額
+#   dependent_deduction:         扶養控除等の額（1人あたり）
+#   brackets:                    税額の算式（10円未満四捨五入）
+# upto は「以下」。null は上限なし。
+# ※ 学習用のサンプルです。実運用では必ず国税庁の公表資料を確認してください。
+
+- effective_from: 2025-01-01
+  name: 令和7年分
+  employment_income_deduction:
+    - { upto: 135416, fixed: 45834 }
+    - { upto: 149999, rate: "0.40", add: -8333 }
+    - { upto: 299999, rate: "0.30", add: 6667 }
+    - { upto: 549999, rate: "0.20", add: 36667 }
+    - { upto: 708330, rate: "0.10", add: 91667 }
+    - { upto: null, fixed: 162500 }
+  basic_deduction:
+    - { upto: 2162499, amount: 40000 }
+    - { upto: 2204166, amount: 26667 }
+    - { upto: 2245833, amount: 13334 }
+    - { upto: null, amount: 0 }
+  spouse_deduction: 31667
+  dependent_deduction: 31667
+  brackets: &brackets
+    - { upto: 162500, rate: "0.05105", sub: 0 }
+    - { upto: 275000, rate: "0.10210", sub: 8296 }
+    - { upto: 579166, rate: "0.20420", sub: 36374 }
+    - { upto: 750000, rate: "0.23483", sub: 54113 }
+    - { upto: 1500000, rate: "0.33693", sub: 130688 }
+    - { upto: 3333333, rate: "0.40840", sub: 237893 }
+    - { upto: null, rate: "0.45945", sub: 408061 }
+
+# 令和7年度税制改正（基礎控除・給与所得控除の見直し）を反映
+- effective_from: 2026-01-01
+  name: 令和8年分
+  employment_income_deduction:
+    - { upto: 158333, fixed: 54167 }
+    - { upto: 299999, rate: "0.30", add: 6667 }
+    - { upto: 549999, rate: "0.20", add: 36667 }
+    - { upto: 708330, rate: "0.10", add: 91667 }
+    - { upto: null, fixed: 162500 }
+  basic_deduction:
+    - { upto: 2120833, amount: 48334 }
+    - { upto: 2162499, amount: 40000 }
+    - { upto: 2204166, amount: 26667 }
+    - { upto: 2245833, amount: 13334 }
+    - { upto: null, amount: 0 }
+  spouse_deduction: 31667
+  dependent_deduction: 31667
+  brackets: *brackets

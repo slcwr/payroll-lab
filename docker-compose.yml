@@ -1,0 +1,52 @@
+# ローカルで一式を起動する
+#   docker compose up --build
+#   docker compose exec api bin/rails db:seed
+# 画面: http://localhost:3001   GraphQL: http://localhost:3000/graphql
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 3s
+      retries: 20
+
+  api:
+    build: ./backend
+    # 開発時はソースをマウントして使う。初回は Gemfile.lock を生成するため bundle install から始める
+    user: root
+    command: bash -c "bundle install && ./bin/rails db:prepare && rm -f tmp/pids/server.pid && ./bin/rails server -b 0.0.0.0"
+    environment:
+      RAILS_ENV: development
+      DB_HOST: db
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      CORS_ORIGINS: http://localhost:3001
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/rails
+      - bundle:/usr/local/bundle
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_GRAPHQL_URL: http://localhost:3000/graphql
+    ports:
+      - "3001:3001"
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
+  bundle:

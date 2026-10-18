@@ -1,0 +1,46 @@
+# 社会保険・雇用保険の料率表
+#
+# 法改正（料率改定）はこのファイルに行を追加するだけで反映される。
+# effective_from は次の意味で使う。
+#   - 健康保険・介護保険・子ども子育て支援金・厚生年金: 保険料の「対象月」の初日
+#   - 雇用保険: 賃金締切日
+#
+# 料率はすべて「労使合計」。被保険者負担はこの 1/2（雇用保険は労働者負担分そのもの）。
+# ※ 学習用のサンプルです。実運用では必ず最新の公表値を確認してください。
+
+health_insurance: # 協会けんぽ 健康保険料率（支部 = 事業所所在地の都道府県）
+  - effective_from: 2025-03-01 # 令和7年度（3月分から）
+    rates:
+      tokyo: "0.0991"
+      osaka: "0.1024"
+  - effective_from: 2026-03-01 # 令和8年度（3月分から）
+    rates:
+      tokyo: "0.0985"
+      osaka: "0.1013"
+
+nursing_care: # 介護保険料率（40歳以上65歳未満）
+  - effective_from: 2025-03-01
+    rate: "0.0159"
+  - effective_from: 2026-03-01
+    rate: "0.0162"
+
+child_support: # 子ども・子育て支援金（令和8年4月分から新設）
+  - effective_from: 2026-04-01
+    rate: "0.0023"
+
+welfare_pension: # 厚生年金保険料率（平成29年9月以降固定）
+  - effective_from: 2017-09-01
+    rate: "0.183"
+    standard_remuneration_cap: 650000
+
+employment_insurance: # 雇用保険料率（労働者負担分）
+  - effective_from: 2025-04-01 # 令和7年度
+    rates:
+      general: "0.0055"
+      agriculture: "0.0065"
+      construction: "0.0065"
+  - effective_from: 2026-04-01 # 令和8年度
+    rates:
+      general: "0.005"
+      agriculture: "0.006"
+      construction: "0.006"

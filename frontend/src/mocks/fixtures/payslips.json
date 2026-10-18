@@ -1,0 +1,5371 @@
+[
+  {
+    "id": "1",
+    "employee": {
+      "id": "1",
+      "code": "E00001",
+      "name": "清水 葵",
+      "birthDate": "1980-03-23",
+      "hiredOn": "2025-12-01",
+      "retiredOn": null
+    },
+    "grossPay": 282722,
+    "taxablePay": 264722,
+    "totalDeductions": 56534,
+    "netPay": 226188,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 230000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 34722,
+        "taxable": true,
+        "basis": "時間単価1,438円 × 19時間19分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 18000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 11820,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 1944,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 276,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 21960,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1414,
+        "taxable": false,
+        "basis": "賃金総額282,722円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 5320,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=227,308円（課税支給264,722円 − 社会保険料等37,414円） / 扶養等0人 / B=104,114円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 13800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "employee": {
+      "id": "2",
+      "code": "E00002",
+      "name": "加藤 悠真",
+      "birthDate": "1968-04-05",
+      "hiredOn": "2013-06-01",
+      "retiredOn": null
+    },
+    "grossPay": 484499,
+    "taxablePay": 459499,
+    "totalDeductions": 102661,
+    "netPay": 381838,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 390000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 54499,
+        "taxable": true,
+        "basis": "時間単価2,438円 × 17時間53分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 25000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 20192,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3321,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 471,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 37515,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2422,
+        "taxable": false,
+        "basis": "賃金総額484,499円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 15340,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=395,578円（課税支給459,499円 − 社会保険料等63,921円） / 扶養等0人 / B=231,461円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 23400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "employee": {
+      "id": "3",
+      "code": "E00003",
+      "name": "山田 彩",
+      "birthDate": "1997-12-15",
+      "hiredOn": "2026-10-16",
+      "retiredOn": null
+    },
+    "grossPay": 526810,
+    "taxablePay": 516810,
+    "totalDeductions": 68894,
+    "netPay": 457916,
+    "flags": [
+      "HIRED_IN_PERIOD",
+      "HAS_WARNING"
+    ],
+    "warnings": [
+      "月の途中の入退社のため基本給・手当を日割り計算しました"
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 309677,
+        "taxable": true,
+        "basis": "日割り（在籍16日 / 暦日31日）"
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 15484,
+        "taxable": true,
+        "basis": "日割り（在籍16日 / 暦日31日）"
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 191649,
+        "taxable": true,
+        "basis": "時間単価3,938円 × 38時間56分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 10000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2634,
+        "taxable": false,
+        "basis": "賃金総額526,810円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 30260,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=514,176円（課税支給516,810円 − 社会保険料等2,634円） / 扶養等0人 / B=326,339円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 36000,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "employee": {
+      "id": "4",
+      "code": "E00004",
+      "name": "田中 優子",
+      "birthDate": "1970-10-06",
+      "hiredOn": "2019-06-01",
+      "retiredOn": null
+    },
+    "grossPay": 405884,
+    "taxablePay": 400884,
+    "totalDeductions": 85759,
+    "netPay": 320125,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 360000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 10000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 17063,
+        "taxable": true,
+        "basis": "時間単価2,250円 × 6時間4分 × 1.25"
+      },
+      {
+        "code": "HOLIDAY",
+        "name": "休日手当",
+        "category": "EARNING",
+        "amount": 13821,
+        "taxable": true,
+        "basis": "時間単価2,250円 × 4時間33分 × 1.35"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 5000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 17730,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 2916,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 414,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 32940,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2029,
+        "taxable": false,
+        "basis": "賃金総額405,884円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 8130,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=344,855円（課税支給400,884円 − 社会保険料等56,029円） / 扶養等1人 / B=159,216円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 21600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "employee": {
+      "id": "5",
+      "code": "E00005",
+      "name": "田中 陽菜",
+      "birthDate": "1982-05-07",
+      "hiredOn": "2024-07-01",
+      "retiredOn": null
+    },
+    "grossPay": 979755,
+    "taxablePay": 957755,
+    "totalDeductions": 226348,
+    "netPay": 753407,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 560000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 276600,
+        "taxable": true,
+        "basis": "時間単価3,688円 × 60時間 × 1.25"
+      },
+      {
+        "code": "OVERTIME_60H",
+        "name": "時間外手当（60時間超）",
+        "category": "EARNING",
+        "amount": 82980,
+        "taxable": true,
+        "basis": "時間単価3,688円 × 15時間 × 1.5"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 8175,
+        "taxable": true,
+        "basis": "時間単価3,688円 × 8時間52分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 22000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 29057,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 4779,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 678,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 53985,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 4899,
+        "taxable": false,
+        "basis": "賃金総額979,755円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 99350,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=864,357円（課税支給957,755円 − 社会保険料等93,398円） / 扶養等0人 / B=653,523円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 33600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "employee": {
+      "id": "6",
+      "code": "E00006",
+      "name": "山本 優子",
+      "birthDate": "1995-11-10",
+      "hiredOn": "2019-01-01",
+      "retiredOn": null
+    },
+    "grossPay": 682563,
+    "taxablePay": 676563,
+    "totalDeductions": 125395,
+    "netPay": 557168,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 470000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 125521,
+        "taxable": true,
+        "basis": "時間単価3,125円 × 32時間8分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 6042,
+        "taxable": true,
+        "basis": "時間単価3,125円 × 7時間44分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 6000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 23147,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 540,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 43005,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3413,
+        "taxable": false,
+        "basis": "賃金総額682,563円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 27090,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=606,458円（課税支給676,563円 − 社会保険料等70,105円） / 扶養等3人 / B=310,810円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 28200,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "employee": {
+      "id": "7",
+      "code": "E00007",
+      "name": "松本 結衣",
+      "birthDate": "1981-06-21",
+      "hiredOn": "2015-05-01",
+      "retiredOn": "2026-10-31"
+    },
+    "grossPay": 695586,
+    "taxablePay": 675586,
+    "totalDeductions": 221608,
+    "netPay": 473978,
+    "flags": [
+      "RETIRED_IN_PERIOD"
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 540000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 85586,
+        "taxable": true,
+        "basis": "時間単価3,563円 × 19時間13分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料（9月分）",
+        "category": "DEDUCTION",
+        "amount": 27580,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料（9月分）",
+        "category": "DEDUCTION",
+        "amount": 4536,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金（9月分）",
+        "category": "DEDUCTION",
+        "amount": 644,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料（9月分）",
+        "category": "DEDUCTION",
+        "amount": 51240,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "HEALTH",
+        "name": "健康保険料（10月分）",
+        "category": "DEDUCTION",
+        "amount": 27580,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 9.85% ÷ 2（2026年10月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料（10月分）",
+        "category": "DEDUCTION",
+        "amount": 4536,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 1.62% ÷ 2（2026年10月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金（10月分）",
+        "category": "DEDUCTION",
+        "amount": 644,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 0.23% ÷ 2（2026年10月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料（10月分）",
+        "category": "DEDUCTION",
+        "amount": 51240,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 18.3% ÷ 2（2026年10月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3478,
+        "taxable": false,
+        "basis": "賃金総額695,586円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 17730,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=504,108円（課税支給675,586円 − 社会保険料等171,478円） / 扶養等2人 / B=254,951円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 32400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "employee": {
+      "id": "8",
+      "code": "E00008",
+      "name": "山口 悠真",
+      "birthDate": "1987-07-13",
+      "hiredOn": "2018-10-01",
+      "retiredOn": null
+    },
+    "grossPay": 675537,
+    "taxablePay": 656537,
+    "totalDeductions": 161588,
+    "netPay": 513949,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 580000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 31537,
+        "taxable": true,
+        "basis": "時間単価3,813円 × 6時間37分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 19000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 29057,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 678,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 53985,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3378,
+        "taxable": false,
+        "basis": "賃金総額675,537円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 39690,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=569,439円（課税支給656,537円 − 社会保険料等87,098円） / 扶養等0人 / B=372,494円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 34800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "employee": {
+      "id": "9",
+      "code": "E00009",
+      "name": "山口 さくら",
+      "birthDate": "1985-08-17",
+      "hiredOn": "2015-09-01",
+      "retiredOn": null
+    },
+    "grossPay": 684661,
+    "taxablePay": 659661,
+    "totalDeductions": 129083,
+    "netPay": 555578,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 470000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 126302,
+        "taxable": true,
+        "basis": "時間単価3,125円 × 32時間20分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 3359,
+        "taxable": true,
+        "basis": "時間単価3,125円 × 4時間18分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 25000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 24625,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 4050,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 575,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 45750,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3423,
+        "taxable": false,
+        "basis": "賃金総額684,661円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 22460,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=581,238円（課税支給659,661円 − 社会保険料等78,423円） / 扶養等3人 / B=288,112円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 28200,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "employee": {
+      "id": "10",
+      "code": "E00010",
+      "name": "高橋 拓海",
+      "birthDate": "1997-06-18",
+      "hiredOn": "2020-08-01",
+      "retiredOn": null
+    },
+    "grossPay": 672228,
+    "taxablePay": 658228,
+    "totalDeductions": 116717,
+    "netPay": 555511,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 440000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 143228,
+        "taxable": true,
+        "basis": "時間単価2,938円 × 39時間 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 14000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 21670,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 506,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 40260,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3361,
+        "taxable": false,
+        "basis": "賃金総額672,228円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 24520,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=592,431円（課税支給658,228円 − 社会保険料等65,797円） / 扶養等3人 / B=298,185円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 26400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "employee": {
+      "id": "11",
+      "code": "E00011",
+      "name": "鈴木 陽菜",
+      "birthDate": "1986-10-20",
+      "hiredOn": "2016-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 390078,
+    "taxablePay": 370078,
+    "totalDeductions": 75348,
+    "netPay": 314730,
+    "flags": [
+      "AGE_40"
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 310000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 60078,
+        "taxable": true,
+        "basis": "時間単価1,938円 × 24時間48分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 15760,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 368,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 29280,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1950,
+        "taxable": false,
+        "basis": "賃金総額390,078円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 9390,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=322,720円（課税支給370,078円 − 社会保険料等47,358円） / 扶養等0人 / B=173,175円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 18600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "employee": {
+      "id": "12",
+      "code": "E00012",
+      "name": "松本 翔太",
+      "birthDate": "1987-09-21",
+      "hiredOn": "2020-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 619914,
+    "taxablePay": 619914,
+    "totalDeductions": 125036,
+    "netPay": 494878,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 540000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 297,
+        "taxable": true,
+        "basis": "時間単価3,563円 × 4分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 7764,
+        "taxable": true,
+        "basis": "時間単価3,563円 × 8時間43分 × 0.25"
+      },
+      {
+        "code": "LATE_EARLY",
+        "name": "遅刻早退控除",
+        "category": "EARNING",
+        "amount": -3147,
+        "taxable": true,
+        "basis": "時間単価3,563円 × 53分"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 26102,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 609,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 48495,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3100,
+        "taxable": false,
+        "basis": "賃金総額619,914円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 14330,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=541,608円（課税支給619,914円 − 社会保険料等78,306円） / 扶養等4人 / B=221,617円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 32400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "employee": {
+      "id": "13",
+      "code": "E00013",
+      "name": "山本 翔太",
+      "birthDate": "1995-06-11",
+      "hiredOn": "2021-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 331969,
+    "taxablePay": 308969,
+    "totalDeductions": 56574,
+    "netPay": 275395,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 240000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 33969,
+        "taxable": true,
+        "basis": "時間単価1,500円 × 18時間7分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 23000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 12805,
+        "taxable": false,
+        "basis": "標準報酬月額260,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 299,
+        "taxable": false,
+        "basis": "標準報酬月額260,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 23790,
+        "taxable": false,
+        "basis": "標準報酬月額260,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1660,
+        "taxable": false,
+        "basis": "賃金総額331,969円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 3620,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=270,415円（課税支給308,969円 − 社会保険料等38,554円） / 扶養等2人 / B=70,955円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 14400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "employee": {
+      "id": "14",
+      "code": "E00014",
+      "name": "小林 結衣",
+      "birthDate": "1989-01-21",
+      "hiredOn": "2019-06-01",
+      "retiredOn": null
+    },
+    "grossPay": 258430,
+    "taxablePay": 252430,
+    "totalDeductions": 54098,
+    "netPay": 204332,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 230000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 7430,
+        "taxable": true,
+        "basis": "時間単価1,438円 × 4時間8分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 6000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 11820,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 276,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 21960,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1292,
+        "taxable": false,
+        "basis": "賃金総額258,430円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 4950,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=217,082円（課税支給252,430円 − 社会保険料等35,348円） / 扶養等0人 / B=96,956円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 13800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "employee": {
+      "id": "15",
+      "code": "E00015",
+      "name": "林 健太",
+      "birthDate": "1961-10-12",
+      "hiredOn": "2012-09-01",
+      "retiredOn": null
+    },
+    "grossPay": 426760,
+    "taxablePay": 421760,
+    "totalDeductions": 94574,
+    "netPay": 332186,
+    "flags": [
+      "AGE_65"
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 380000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 41760,
+        "taxable": true,
+        "basis": "時間単価2,375円 × 14時間4分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 5000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 18715,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3078,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 437,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 34770,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2134,
+        "taxable": false,
+        "basis": "賃金総額426,760円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 12640,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=362,626円（課税支給421,760円 − 社会保険料等59,134円） / 扶養等0人 / B=205,099円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 22800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "employee": {
+      "id": "16",
+      "code": "E00016",
+      "name": "山口 結衣",
+      "birthDate": "1991-10-19",
+      "hiredOn": "2021-10-01",
+      "retiredOn": null
+    },
+    "grossPay": 360964,
+    "taxablePay": 342964,
+    "totalDeductions": 69035,
+    "netPay": 291929,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 280000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 62964,
+        "taxable": true,
+        "basis": "時間単価1,750円 × 28時間47分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 18000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 14775,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 345,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 27450,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1805,
+        "taxable": false,
+        "basis": "賃金総額360,964円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 7860,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=298,589円（課税支給342,964円 − 社会保険料等44,375円） / 扶養等0人 / B=154,011円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 16800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "employee": {
+      "id": "17",
+      "code": "E00017",
+      "name": "伊藤 健太",
+      "birthDate": "1998-06-04",
+      "hiredOn": "2025-04-01",
+      "retiredOn": null
+    },
+    "grossPay": 680987,
+    "taxablePay": 662987,
+    "totalDeductions": 162795,
+    "netPay": 518192,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 580000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 37336,
+        "taxable": true,
+        "basis": "時間単価3,813円 × 7時間50分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 651,
+        "taxable": true,
+        "basis": "時間単価3,813円 × 41分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 18000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 29057,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 678,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 53985,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3405,
+        "taxable": false,
+        "basis": "賃金総額680,987円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 40870,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=575,862円（課税支給662,987円 − 社会保険料等87,125円） / 扶養等0人 / B=378,274円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 34800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "employee": {
+      "id": "18",
+      "code": "E00018",
+      "name": "佐藤 悠真",
+      "birthDate": "2002-05-17",
+      "hiredOn": "2013-03-01",
+      "retiredOn": null
+    },
+    "grossPay": 335584,
+    "taxablePay": 327584,
+    "totalDeductions": 71286,
+    "netPay": 264298,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 310000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 2584,
+        "taxable": true,
+        "basis": "時間単価1,938円 × 1時間4分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 8000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 15760,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 368,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 29280,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1678,
+        "taxable": false,
+        "basis": "賃金総額335,584円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 5600,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=280,498円（課税支給327,584円 − 社会保険料等47,086円） / 扶養等1人 / B=109,680円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 18600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "employee": {
+      "id": "19",
+      "code": "E00019",
+      "name": "吉田 結衣",
+      "birthDate": "1988-08-01",
+      "hiredOn": "2023-06-01",
+      "retiredOn": null
+    },
+    "grossPay": 403753,
+    "taxablePay": 394753,
+    "totalDeductions": 29269,
+    "netPay": 374484,
+    "flags": [
+      "HAS_WARNING"
+    ],
+    "warnings": [
+      "標準報酬月額が未登録のため社会保険料を計算できませんでした"
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 340000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 34753,
+        "taxable": true,
+        "basis": "時間単価2,125円 × 13時間5分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 9000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2019,
+        "taxable": false,
+        "basis": "賃金総額403,753円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 6850,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=392,734円（課税支給394,753円 − 社会保険料等2,019円） / 扶養等3人 / B=134,185円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 20400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "employee": {
+      "id": "20",
+      "code": "E00020",
+      "name": "山田 愛",
+      "birthDate": "1995-07-12",
+      "hiredOn": "2014-04-01",
+      "retiredOn": null
+    },
+    "grossPay": 451547,
+    "taxablePay": 451547,
+    "totalDeductions": 87862,
+    "netPay": 363685,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 370000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 66547,
+        "taxable": true,
+        "basis": "時間単価2,313円 × 23時間1分 × 1.25"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 17730,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 414,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 32940,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2258,
+        "taxable": false,
+        "basis": "賃金総額451,547円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 12320,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=398,205円（課税支給451,547円 − 社会保険料等53,342円） / 扶養等1人 / B=201,896円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 22200,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "employee": {
+      "id": "21",
+      "code": "E00021",
+      "name": "鈴木 結衣",
+      "birthDate": "1976-12-05",
+      "hiredOn": "2025-07-01",
+      "retiredOn": null
+    },
+    "grossPay": 397000,
+    "taxablePay": 387000,
+    "totalDeductions": 79735,
+    "netPay": 317265,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 320000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 52000,
+        "taxable": true,
+        "basis": "時間単価2,000円 × 20時間48分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 10000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 15760,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 2592,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 368,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 29280,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1985,
+        "taxable": false,
+        "basis": "賃金総額397,000円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 10550,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=337,015円（課税支給387,000円 − 社会保険料等49,985円） / 扶養等0人 / B=184,611円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 19200,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "employee": {
+      "id": "22",
+      "code": "E00022",
+      "name": "伊藤 七海",
+      "birthDate": "1977-02-19",
+      "hiredOn": "2020-09-01",
+      "retiredOn": null
+    },
+    "grossPay": 455211,
+    "taxablePay": 447211,
+    "totalDeductions": 90346,
+    "netPay": 364865,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 380000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 32211,
+        "taxable": true,
+        "basis": "時間単価2,375円 × 10時間51分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 8000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 18715,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3078,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 437,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 34770,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2276,
+        "taxable": false,
+        "basis": "賃金総額455,211円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 8270,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=387,935円（課税支給447,211円 − 社会保険料等59,276円） / 扶養等2人 / B=162,013円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 22800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "employee": {
+      "id": "23",
+      "code": "E00023",
+      "name": "山口 誠",
+      "birthDate": "1990-10-07",
+      "hiredOn": "2020-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 199031,
+    "taxablePay": 177031,
+    "totalDeductions": 199173,
+    "netPay": -142,
+    "flags": [
+      "NEGATIVE_NET"
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 120000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 37031,
+        "taxable": true,
+        "basis": "時間単価750円 × 39時間30分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 22000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 20192,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 471,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 37515,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 995,
+        "taxable": false,
+        "basis": "賃金総額199,031円 × 5/1000"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 140000,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "employee": {
+      "id": "24",
+      "code": "E00024",
+      "name": "林 蓮",
+      "birthDate": "1970-11-22",
+      "hiredOn": "2023-05-01",
+      "retiredOn": null
+    },
+    "grossPay": 375648,
+    "taxablePay": 364648,
+    "totalDeductions": 71298,
+    "netPay": 304350,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 290000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 55939,
+        "taxable": true,
+        "basis": "時間単価1,813円 × 24時間41分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 3709,
+        "taxable": true,
+        "basis": "時間単価1,813円 × 8時間11分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 11000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 14775,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 2430,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 345,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 27450,
+        "taxable": false,
+        "basis": "標準報酬月額300,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1878,
+        "taxable": false,
+        "basis": "賃金総額375,648円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 7020,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=317,770円（課税支給364,648円 − 社会保険料等46,878円） / 扶養等1人 / B=137,548円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 17400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "employee": {
+      "id": "25",
+      "code": "E00025",
+      "name": "佐々木 愛",
+      "birthDate": "1979-06-05",
+      "hiredOn": "2016-03-01",
+      "retiredOn": null
+    },
+    "grossPay": 566837,
+    "taxablePay": 545837,
+    "totalDeductions": 123193,
+    "netPay": 443644,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 440000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 75837,
+        "taxable": true,
+        "basis": "時間単価2,938円 × 20時間39分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 21000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 23147,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3807,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 540,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 43005,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2834,
+        "taxable": false,
+        "basis": "賃金総額566,837円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 23460,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=472,504円（課税支給545,837円 − 社会保険料等73,333円） / 扶養等0人 / B=293,002円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 26400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "employee": {
+      "id": "26",
+      "code": "E00026",
+      "name": "清水 葵",
+      "birthDate": "1978-10-06",
+      "hiredOn": "2022-07-01",
+      "retiredOn": null
+    },
+    "grossPay": 417969,
+    "taxablePay": 395969,
+    "totalDeductions": 79370,
+    "netPay": 338599,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 300000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 56289,
+        "taxable": true,
+        "basis": "時間単価1,875円 × 24時間1分 × 1.25"
+      },
+      {
+        "code": "HOLIDAY",
+        "name": "休日手当",
+        "category": "EARNING",
+        "amount": 24680,
+        "taxable": true,
+        "basis": "時間単価1,875円 × 9時間45分 × 1.35"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 22000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 15760,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 2592,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 368,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 29280,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2090,
+        "taxable": false,
+        "basis": "賃金総額417,969円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 11280,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=345,879円（課税支給395,969円 − 社会保険料等50,090円） / 扶養等0人 / B=191,702円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 18000,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "employee": {
+      "id": "27",
+      "code": "E00027",
+      "name": "鈴木 颯",
+      "birthDate": "1956-10-05",
+      "hiredOn": "2020-05-01",
+      "retiredOn": null
+    },
+    "grossPay": 610126,
+    "taxablePay": 594126,
+    "totalDeductions": 139397,
+    "netPay": 470729,
+    "flags": [
+      "AGE_70"
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 510000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 52242,
+        "taxable": true,
+        "basis": "時間単価3,375円 × 12時間23分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 1884,
+        "taxable": true,
+        "basis": "時間単価3,375円 × 2時間14分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 16000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 26102,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 609,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 48495,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3051,
+        "taxable": false,
+        "basis": "賃金総額610,126円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 30540,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=515,869円（課税支給594,126円 − 社会保険料等78,257円） / 扶養等0人 / B=327,694円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 30600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "employee": {
+      "id": "28",
+      "code": "E00028",
+      "name": "清水 葵",
+      "birthDate": "1984-06-22",
+      "hiredOn": "2015-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 466914,
+    "taxablePay": 445914,
+    "totalDeductions": 86935,
+    "netPay": 379979,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 350000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 65914,
+        "taxable": true,
+        "basis": "時間単価2,188円 × 24時間6分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 21000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 18715,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3078,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 437,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 34770,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2335,
+        "taxable": false,
+        "basis": "賃金総額466,914円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 6600,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=386,579円（課税支給445,914円 − 社会保険料等59,335円） / 扶養等3人 / B=129,261円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 21000,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "employee": {
+      "id": "29",
+      "code": "E00029",
+      "name": "伊藤 葵",
+      "birthDate": "1989-03-19",
+      "hiredOn": "2022-09-01",
+      "retiredOn": null
+    },
+    "grossPay": 459434,
+    "taxablePay": 442434,
+    "totalDeductions": 85373,
+    "netPay": 374061,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 330000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 97434,
+        "taxable": true,
+        "basis": "時間単価2,063円 × 37時間47分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 17000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 16745,
+        "taxable": false,
+        "basis": "標準報酬月額340,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 391,
+        "taxable": false,
+        "basis": "標準報酬月額340,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 31110,
+        "taxable": false,
+        "basis": "標準報酬月額340,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2297,
+        "taxable": false,
+        "basis": "賃金総額459,434円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 15030,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=391,891円（課税支給442,434円 − 社会保険料等50,543円） / 扶養等0人 / B=228,511円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 19800,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "employee": {
+      "id": "30",
+      "code": "E00030",
+      "name": "加藤 湊",
+      "birthDate": "1976-11-17",
+      "hiredOn": "2018-10-01",
+      "retiredOn": null
+    },
+    "grossPay": 775731,
+    "taxablePay": 764731,
+    "totalDeductions": 179918,
+    "netPay": 595813,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 590000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 144021,
+        "taxable": true,
+        "basis": "時間単価3,875円 × 29時間44分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 710,
+        "taxable": true,
+        "basis": "時間単価3,875円 × 44分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 11000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 29057,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 4779,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 678,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 53985,
+        "taxable": false,
+        "basis": "標準報酬月額590,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3879,
+        "taxable": false,
+        "basis": "賃金総額775,731円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 52140,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=672,353円（課税支給764,731円 − 社会保険料等92,378円） / 扶養等1人 / B=433,449円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 35400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "employee": {
+      "id": "31",
+      "code": "E00031",
+      "name": "渡辺 翔太",
+      "birthDate": "1980-04-03",
+      "hiredOn": "2015-12-01",
+      "retiredOn": null
+    },
+    "grossPay": 261000,
+    "taxablePay": 255000,
+    "totalDeductions": 56675,
+    "netPay": 204325,
+    "flags": [
+      "HAS_WARNING"
+    ],
+    "warnings": [
+      "勤怠集計が連携されていません（時間外・欠勤を0として計算）"
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 240000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 6000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 11820,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 1944,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 276,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 21960,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1305,
+        "taxable": false,
+        "basis": "賃金総額261,000円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 4970,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=217,695円（課税支給255,000円 − 社会保険料等37,305円） / 扶養等0人 / B=97,385円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 14400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "employee": {
+      "id": "32",
+      "code": "E00032",
+      "name": "高橋 結衣",
+      "birthDate": "1995-07-09",
+      "hiredOn": "2022-01-01",
+      "retiredOn": null
+    },
+    "grossPay": 556593,
+    "taxablePay": 546593,
+    "totalDeductions": 115329,
+    "netPay": 441264,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 420000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 63175,
+        "taxable": true,
+        "basis": "時間単価2,813円 × 17時間58分 × 1.25"
+      },
+      {
+        "code": "HOLIDAY",
+        "name": "休日手当",
+        "category": "EARNING",
+        "amount": 33418,
+        "taxable": true,
+        "basis": "時間単価2,813円 × 8時間48分 × 1.35"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 10000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 21670,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 506,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 40260,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2783,
+        "taxable": false,
+        "basis": "賃金総額556,593円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 24910,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=481,374円（課税支給546,593円 − 社会保険料等65,219円） / 扶養等0人 / B=300,098円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 25200,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "employee": {
+      "id": "33",
+      "code": "E00033",
+      "name": "松本 直樹",
+      "birthDate": "2001-10-04",
+      "hiredOn": "2015-07-01",
+      "retiredOn": null
+    },
+    "grossPay": 624049,
+    "taxablePay": 615049,
+    "totalDeductions": 143476,
+    "netPay": 480573,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 520000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 58159,
+        "taxable": true,
+        "basis": "時間単価3,438円 × 13時間32分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 8380,
+        "taxable": true,
+        "basis": "時間単価3,438円 × 9時間45分 × 0.25"
+      },
+      {
+        "code": "LATE_EARLY",
+        "name": "遅刻早退控除",
+        "category": "EARNING",
+        "amount": -1490,
+        "taxable": true,
+        "basis": "時間単価3,438円 × 26分"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 9000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 26102,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 609,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 48495,
+        "taxable": false,
+        "basis": "標準報酬月額530,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3120,
+        "taxable": false,
+        "basis": "賃金総額624,049円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 33950,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=536,723円（課税支給615,049円 − 社会保険料等78,326円） / 扶養等0人 / B=344,377円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 31200,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "employee": {
+      "id": "34",
+      "code": "E00034",
+      "name": "山口 凛",
+      "birthDate": "1999-01-19",
+      "hiredOn": "2012-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 373641,
+    "taxablePay": 373641,
+    "totalDeductions": 83772,
+    "netPay": 289869,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 360000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 13641,
+        "taxable": true,
+        "basis": "時間単価2,250円 × 4時間51分 × 1.25"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 17730,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 414,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 32940,
+        "taxable": false,
+        "basis": "標準報酬月額360,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1868,
+        "taxable": false,
+        "basis": "賃金総額373,641円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 9220,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=320,689円（課税支給373,641円 − 社会保険料等52,952円） / 扶養等0人 / B=171,550円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 21600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "employee": {
+      "id": "35",
+      "code": "E00035",
+      "name": "山口 愛",
+      "birthDate": "1998-03-18",
+      "hiredOn": "2022-01-01",
+      "retiredOn": null
+    },
+    "grossPay": 585539,
+    "taxablePay": 585539,
+    "totalDeductions": 119598,
+    "netPay": 465941,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 510000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 15539,
+        "taxable": true,
+        "basis": "時間単価3,375円 × 3時間41分 × 1.25"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 24625,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 575,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 45750,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2928,
+        "taxable": false,
+        "basis": "賃金総額585,539円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 15120,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=511,661円（課税支給585,539円 − 社会保険料等73,878円） / 扶養等3人 / B=229,326円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 30600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "employee": {
+      "id": "36",
+      "code": "E00036",
+      "name": "斎藤 颯",
+      "birthDate": "1978-07-04",
+      "hiredOn": "2020-08-01",
+      "retiredOn": null
+    },
+    "grossPay": 454048,
+    "taxablePay": 454048,
+    "totalDeductions": 94710,
+    "netPay": 359338,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 390000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 64048,
+        "taxable": true,
+        "basis": "時間単価2,438円 × 21時間1分 × 1.25"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 18715,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3078,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 437,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 34770,
+        "taxable": false,
+        "basis": "標準報酬月額380,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2270,
+        "taxable": false,
+        "basis": "賃金総額454,048円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 12040,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=394,778円（課税支給454,048円 − 社会保険料等59,270円） / 扶養等1人 / B=199,154円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 23400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "employee": {
+      "id": "37",
+      "code": "E00037",
+      "name": "林 七海",
+      "birthDate": "1994-05-18",
+      "hiredOn": "2023-07-01",
+      "retiredOn": null
+    },
+    "grossPay": 665301,
+    "taxablePay": 665301,
+    "totalDeductions": 122659,
+    "netPay": 542642,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 460000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 145301,
+        "taxable": true,
+        "basis": "時間単価3,063円 × 37時間57分 × 1.25"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 23147,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 540,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 43005,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3327,
+        "taxable": false,
+        "basis": "賃金総額665,301円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 25040,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=595,282円（課税支給665,301円 − 社会保険料等70,019円） / 扶養等3人 / B=300,751円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 27600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "employee": {
+      "id": "38",
+      "code": "E00038",
+      "name": "斎藤 直樹",
+      "birthDate": "1994-03-19",
+      "hiredOn": "2017-08-01",
+      "retiredOn": null
+    },
+    "grossPay": 440013,
+    "taxablePay": 421013,
+    "totalDeductions": 96258,
+    "netPay": 343755,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 390000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 34386,
+        "taxable": true,
+        "basis": "時間単価2,438円 × 11時間17分 × 1.25"
+      },
+      {
+        "code": "LATE_EARLY",
+        "name": "遅刻早退控除",
+        "category": "EARNING",
+        "amount": -3373,
+        "taxable": true,
+        "basis": "時間単価2,438円 × 1時間23分"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 19000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 20192,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 471,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 37515,
+        "taxable": false,
+        "basis": "標準報酬月額410,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2200,
+        "taxable": false,
+        "basis": "賃金総額440,013円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 12480,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=360,635円（課税支給421,013円 − 社会保険料等60,378円） / 扶養等0人 / B=203,507円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 23400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "employee": {
+      "id": "39",
+      "code": "E00039",
+      "name": "木村 七海",
+      "birthDate": "1998-09-19",
+      "hiredOn": "2016-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 345850,
+    "taxablePay": 335850,
+    "totalDeductions": 59823,
+    "netPay": 286027,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 250000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 72680,
+        "taxable": true,
+        "basis": "時間単価1,563円 × 37時間12分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 228,
+        "taxable": true,
+        "basis": "時間単価1,563円 × 35分 × 0.25"
+      },
+      {
+        "code": "LATE_EARLY",
+        "name": "遅刻早退控除",
+        "category": "EARNING",
+        "amount": -2058,
+        "taxable": true,
+        "basis": "時間単価1,563円 × 1時間19分"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 10000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 12805,
+        "taxable": false,
+        "basis": "標準報酬月額260,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 299,
+        "taxable": false,
+        "basis": "標準報酬月額260,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 23790,
+        "taxable": false,
+        "basis": "標準報酬月額260,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1729,
+        "taxable": false,
+        "basis": "賃金総額345,850円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 6200,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=297,227円（課税支給335,850円 − 社会保険料等38,623円） / 扶養等1人 / B=121,390円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 15000,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "employee": {
+      "id": "40",
+      "code": "E00040",
+      "name": "吉田 直樹",
+      "birthDate": "1979-09-07",
+      "hiredOn": "2025-11-01",
+      "retiredOn": null
+    },
+    "grossPay": 785955,
+    "taxablePay": 774955,
+    "totalDeductions": 182830,
+    "netPay": 603125,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 560000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 169955,
+        "taxable": true,
+        "basis": "時間単価3,688円 × 36時間52分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 11000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 27580,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 4536,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 644,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 51240,
+        "taxable": false,
+        "basis": "標準報酬月額560,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3930,
+        "taxable": false,
+        "basis": "賃金総額785,955円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 61300,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=687,025円（課税支給774,955円 − 社会保険料等87,930円） / 扶養等0人 / B=478,321円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 33600,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "employee": {
+      "id": "41",
+      "code": "E00041",
+      "name": "山田 蓮",
+      "birthDate": "1989-09-01",
+      "hiredOn": "2020-10-01",
+      "retiredOn": null
+    },
+    "grossPay": 585603,
+    "taxablePay": 576603,
+    "totalDeductions": 120898,
+    "netPay": 464705,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 490000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_FAMILY",
+        "name": "家族手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 33786,
+        "taxable": true,
+        "basis": "時間単価3,250円 × 8時間19分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 2817,
+        "taxable": true,
+        "basis": "時間単価3,250円 × 3時間28分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 9000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 24625,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 575,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 45750,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2928,
+        "taxable": false,
+        "basis": "賃金総額585,603円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 17620,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=502,725円（課税支給576,603円 − 社会保険料等73,878円） / 扶養等2人 / B=253,845円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 29400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "employee": {
+      "id": "42",
+      "code": "E00042",
+      "name": "小林 誠",
+      "birthDate": "1983-11-24",
+      "hiredOn": "2019-12-01",
+      "retiredOn": null
+    },
+    "grossPay": 559900,
+    "taxablePay": 554900,
+    "totalDeductions": 120879,
+    "netPay": 439021,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 440000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 69900,
+        "taxable": true,
+        "basis": "時間単価2,938円 × 19時間2分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 5000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 21670,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 3564,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 506,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 40260,
+        "taxable": false,
+        "basis": "標準報酬月額440,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2799,
+        "taxable": false,
+        "basis": "賃金総額559,900円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 25680,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=486,101円（課税支給554,900円 − 社会保険料等68,799円） / 扶養等0人 / B=303,879円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 26400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "employee": {
+      "id": "43",
+      "code": "E00043",
+      "name": "山口 拓海",
+      "birthDate": "1992-06-14",
+      "hiredOn": "2022-05-01",
+      "retiredOn": null
+    },
+    "grossPay": 618281,
+    "taxablePay": 618281,
+    "totalDeductions": 132151,
+    "netPay": 486130,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 490000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 83281,
+        "taxable": true,
+        "basis": "時間単価3,250円 × 20時間30分 × 1.25"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 24625,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 575,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 45750,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 3091,
+        "taxable": false,
+        "basis": "賃金総額618,281円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 28710,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=544,240円（課税支給618,281円 − 社会保険料等74,041円） / 扶養等1人 / B=318,724円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 29400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "employee": {
+      "id": "44",
+      "code": "E00044",
+      "name": "清水 彩",
+      "birthDate": "1982-03-16",
+      "hiredOn": "2015-08-01",
+      "retiredOn": null
+    },
+    "grossPay": 587104,
+    "taxablePay": 574104,
+    "totalDeductions": 135256,
+    "netPay": 451848,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 500000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 44104,
+        "taxable": true,
+        "basis": "時間単価3,313円 × 10時間39分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 13000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 24625,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 4050,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 575,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 45750,
+        "taxable": false,
+        "basis": "標準報酬月額500,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2936,
+        "taxable": false,
+        "basis": "賃金総額587,104円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 27320,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=496,168円（課税支給574,104円 − 社会保険料等77,936円） / 扶養等0人 / B=311,933円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 30000,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "employee": {
+      "id": "45",
+      "code": "E00045",
+      "name": "田中 大翔",
+      "birthDate": "1982-11-07",
+      "hiredOn": "2025-05-01",
+      "retiredOn": null
+    },
+    "grossPay": 416424,
+    "taxablePay": 392424,
+    "totalDeductions": 78472,
+    "netPay": 337952,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 290000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_HOUSING",
+        "name": "住宅手当",
+        "category": "EARNING",
+        "amount": 15000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 70783,
+        "taxable": true,
+        "basis": "時間単価1,813円 × 31時間14分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 2160,
+        "taxable": true,
+        "basis": "時間単価1,813円 × 4時間46分 × 0.25"
+      },
+      {
+        "code": "HOLIDAY",
+        "name": "休日手当",
+        "category": "EARNING",
+        "amount": 14481,
+        "taxable": true,
+        "basis": "時間単価1,813円 × 5時間55分 × 1.35"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 24000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 15760,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 2592,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 368,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 29280,
+        "taxable": false,
+        "basis": "標準報酬月額320,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2082,
+        "taxable": false,
+        "basis": "賃金総額416,424円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 10990,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=342,342円（課税支給392,424円 − 社会保険料等50,082円） / 扶養等0人 / B=188,872円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 17400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "employee": {
+      "id": "46",
+      "code": "E00046",
+      "name": "伊藤 誠",
+      "birthDate": "1979-10-05",
+      "hiredOn": "2014-12-01",
+      "retiredOn": null
+    },
+    "grossPay": 295612,
+    "taxablePay": 295612,
+    "totalDeductions": 56678,
+    "netPay": 238934,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 240000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 58562,
+        "taxable": true,
+        "basis": "時間単価1,500円 × 31時間14分 × 1.25"
+      },
+      {
+        "code": "LATE_EARLY",
+        "name": "遅刻早退控除",
+        "category": "EARNING",
+        "amount": -2950,
+        "taxable": true,
+        "basis": "時間単価1,500円 × 1時間58分"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 11820,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "NURSING",
+        "name": "介護保険料",
+        "category": "DEDUCTION",
+        "amount": 1944,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 1.62% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 276,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 21960,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1478,
+        "taxable": false,
+        "basis": "賃金総額295,612円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 4800,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=258,134円（課税支給295,612円 − 社会保険料等37,478円） / 扶養等1人 / B=94,025円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 14400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "employee": {
+      "id": "47",
+      "code": "E00047",
+      "name": "山本 悠真",
+      "birthDate": "1995-08-26",
+      "hiredOn": "2015-05-01",
+      "retiredOn": null
+    },
+    "grossPay": 285000,
+    "taxablePay": 277000,
+    "totalDeductions": 55701,
+    "netPay": 229299,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 240000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 37000,
+        "taxable": true,
+        "basis": "時間単価1,500円 × 19時間44分 × 1.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 8000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 11820,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 276,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 21960,
+        "taxable": false,
+        "basis": "標準報酬月額240,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 1425,
+        "taxable": false,
+        "basis": "賃金総額285,000円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 5820,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=241,519円（課税支給277,000円 − 社会保険料等35,481円） / 扶養等0人 / B=114,062円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 14400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "employee": {
+      "id": "48",
+      "code": "E00048",
+      "name": "斎藤 凛",
+      "birthDate": "1998-09-12",
+      "hiredOn": "2017-01-01",
+      "retiredOn": null
+    },
+    "grossPay": 500063,
+    "taxablePay": 480063,
+    "totalDeductions": 108942,
+    "netPay": 391121,
+    "flags": [
+
+    ],
+    "warnings": [
+
+    ],
+    "earnings": [
+      {
+        "code": "BASE",
+        "name": "基本給",
+        "category": "EARNING",
+        "amount": 440000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "ALW_POSITION",
+        "name": "役職手当",
+        "category": "EARNING",
+        "amount": 30000,
+        "taxable": true,
+        "basis": null
+      },
+      {
+        "code": "OVERTIME",
+        "name": "時間外手当",
+        "category": "EARNING",
+        "amount": 5448,
+        "taxable": true,
+        "basis": "時間単価2,938円 × 1時間29分 × 1.25"
+      },
+      {
+        "code": "LATE_NIGHT",
+        "name": "深夜手当",
+        "category": "EARNING",
+        "amount": 4615,
+        "taxable": true,
+        "basis": "時間単価2,938円 × 6時間17分 × 0.25"
+      },
+      {
+        "code": "COMMUTE",
+        "name": "通勤手当",
+        "category": "EARNING",
+        "amount": 20000,
+        "taxable": false,
+        "basis": "非課税（限度額150,000円）"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "HEALTH",
+        "name": "健康保険料",
+        "category": "DEDUCTION",
+        "amount": 23147,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 9.85% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "CHILD_SUPPORT",
+        "name": "子ども・子育て支援金",
+        "category": "DEDUCTION",
+        "amount": 540,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 0.23% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "PENSION",
+        "name": "厚生年金保険料",
+        "category": "DEDUCTION",
+        "amount": 43005,
+        "taxable": false,
+        "basis": "標準報酬月額470,000円 × 18.3% ÷ 2（2026年9月分）"
+      },
+      {
+        "code": "EMPLOYMENT",
+        "name": "雇用保険料",
+        "category": "DEDUCTION",
+        "amount": 2500,
+        "taxable": false,
+        "basis": "賃金総額500,063円 × 5/1000"
+      },
+      {
+        "code": "INCOME_TAX",
+        "name": "所得税",
+        "category": "DEDUCTION",
+        "amount": 13350,
+        "taxable": false,
+        "basis": "令和8年分・甲欄 / A=410,871円（課税支給480,063円 − 社会保険料等69,192円） / 扶養等1人 / B=212,028円"
+      },
+      {
+        "code": "RESIDENT_TAX",
+        "name": "住民税",
+        "category": "DEDUCTION",
+        "amount": 26400,
+        "taxable": false,
+        "basis": "特別徴収税額通知書の月額"
+      }
+    ]
+  }
+]

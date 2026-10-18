@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+# サーバー起動時のみマイグレーションを流す（Cloud Run Jobs の計算タスクでは流さない）
+if [ "${@: -2:1}" == "./bin/rails" ] && [ "${@: -1:1}" == "server" ]; then
+  ./bin/rails db:prepare
+fi
+
+exec "${@}"

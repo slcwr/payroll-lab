@@ -1,0 +1,11 @@
+project_id = "your-gcp-project"
+region     = "asia-northeast1"
+env        = "dev"
+
+api_image = "asia-northeast1-docker.pkg.dev/your-gcp-project/payroll-lab/api:latest"
+web_image = "asia-northeast1-docker.pkg.dev/your-gcp-project/payroll-lab/web:latest"
+
+# 1回目の apply 後に出力される web_url を入れて再度 apply する
+web_origin = ""
+
+payroll_shard_count = 4
