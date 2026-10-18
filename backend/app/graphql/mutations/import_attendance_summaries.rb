@@ -25,7 +25,7 @@ module Mutations
       end
       if rows.any?
         AttendanceSummary.upsert_all(rows, unique_by: %i[employee_id year_month],
-                                           update_only: VALUE_KEYS + %i[source updated_at])
+                                           update_only: VALUE_KEYS + %i[source])
       end
 
       { imported_count: rows.size, unknown_employee_codes: items.map(&:employee_code).uniq - ids.keys, errors: [] }

@@ -43,7 +43,7 @@ RSpec.describe PayrollRuns::Calculate do
 
   it "従業員を分割して並列計算し、最後のタスクが集計する" do
     create_list(:employee, 3, company: company)
-    run.start_calculation!(shard_count: 2)
+    run.update!(shard_count: 2)
 
     described_class.call(run, shard_index: 0, shard_count: 2)
     expect(run.reload).to be_calculating
@@ -61,7 +61,6 @@ RSpec.describe PayrollRuns::Calculate do
       n
     end
 
-    run.start_calculation!
     few = count_queries.call
     create_list(:employee, 20, company: company)
     run.start_calculation!
