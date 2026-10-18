@@ -8,6 +8,8 @@ gem "puma", ">= 6.0"
 gem "graphql", "~> 2.4"
 gem "rack-cors"
 gem "bootsnap", require: false
+# json 3.x rejects the quirks_mode: option Rails 8.0 passes to JSON.generate
+gem "json", "~> 2.10"
 gem "tzinfo-data", platforms: %i[windows jruby]
 
 group :development, :test do
