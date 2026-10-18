@@ -1,2 +1,6 @@
 inherit_gem:
   rubocop-rails-omakase: rubocop.yml
+
+# コード全体で [x] 形式に統一しているため
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
